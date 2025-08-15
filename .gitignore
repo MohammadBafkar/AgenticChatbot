@@ -1,0 +1,149 @@
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+wheelhouse/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+venv/
+env/
+.python-version
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb_convert/
+.profile_default/
+*.nbconvert.ipynb
+
+# Logs / debug / runtime
+*.log
+logs/
+debug.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+.pytest_cache/
+.tox/
+.nox/
+.mypy_cache/
+.dmypy.json
+pytestdebug.log
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Type checkers / linters
+.pyre/
+.pytype/
+.ruff_cache/
+.cython_debug/
+
+# Editors / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS / misc
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+*.env
+*.env.*
+.envrc
+.secret
+secrets/
+credentials.json
+token_*.json
+
+# Build artifacts / compiled libs
+*.so
+*.dylib
+*.dll
+*.pyd
+
+# C extensions
+build/
+*.c
+*.cpp
+
+# Data / temp
+tmp/
+temp/
+*.tmp
+*.bak
+
+# LangChain / LangGraph related caches & vector stores
+# (Adjust if you intentionally version control a store)
+langchain.db
+langchain.sqlite
+.langchain/
+chroma/
+chroma_db/
+vectorstore*/
+faiss_index*/
+faiss_store*/
+index.faiss
+index.pkl
+*.vectordb
+*.ann
+
+# Common local data outputs
+data/raw/
+data/tmp/
+outputs/
+results/
+artifacts/
+checkpoints/
+models/
+model_checkpoints/
+
+# Cache directories (LLM / embedding providers, HF, etc.)
+.huggingface/
+huggingface/
+transformers_cache/
+.hf_cache/
+.openai_cache/
+
+# Serialized objects
+*.pkl
+*.joblib
+*.jsonl
+*.parquet
+
+# Dotenv exports
+.env.backup
+.env.local
+.env.dev
+.env.test
+.env.prod
+
+# Node (if front-end present)
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+
+# VSCode dev containers / Docker
+.devcontainer/
+docker-compose.override.yml
+
+# Ignore local scripts not meant for repo
+local_*.sh
+scripts/local/
