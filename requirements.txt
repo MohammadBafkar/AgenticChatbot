@@ -6,9 +6,6 @@ langchain-openai
 langchain-groq
 langchain-tavily
 python-dotenv
-arxiv
-wikipedia
-langgraph_cli[inmem]
 faiss-cpu
 tavily-python
 streamlit
